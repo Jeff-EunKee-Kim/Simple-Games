@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jeff Kim">
+    <link type="text/css" rel="stylesheet" href="css/style.css">	   
+    <script src="js/breakout.js" async></script>
+	<title> Breakout Game </title>
+</head>
+
+<body>
+	<h1> BREAKOUT</h1>
+    <p>Do you want to play a game but overwhelmed with all the high-end game in the market today? Try out this classic yet exciting game of breakout with childhood evoking music and graphics!! </p>
+    <button type="button" id="starteasy">Easy Version</button>
+    <button type="button" id="starthard">Hard Version </button>
+    <button type="button" id="restart">RESTART </button>
+    
+	<canvas id="bgCanvas" width="800" height="750" ></canvas>
+    <div class="instructions">
+        <ul>
+            <li class = "mainList">Controls</li>
+                <li>Use left/right arrow keys or mouse to move paddle</li>
+                <li>Easy mode will have a much slower ball speed than hard mode</li>
+            <li class = "mainList">Rules</li>
+                <li>Destroy all the bricks to win</li>
+                <li>If the ball hits the bottom, you will lose a life</li>
+                <li>Once you lose all 3 lives before breaking all the bricks, you will lose </li>
+            <li class = "mainList">Scoring</li>
+                <li>1 point for every brick you break</li>
+                <li>Total Score is calculated by the total amount of bricks broken within the 3 lives  </li>
+            <li class = "mainList">Cheat Codes</li>
+                <li>Win game button will automatically finish the game</li>
+                <li>Widen paddle button will increase the length of the paddle</li>
+                <li>Paddle max button will block the entire bottom of the screen</li>
+                <li>Speed up button will speed up the ball to see the ending faster</li>
+        </ul>
+        <button type="button" id="cheatCode">Win Game </button>
+        <button type="button" id="paddleLong">Widen paddle </button>
+        <button type="button" id="paddleMax">Paddle Max</button>
+        <button type="button" id="speedup">Speed Up!! </button>
+    </div>
+    <br>
+    <audio id="bgmusic" src="sound/backgroundMusic.mp3"></audio>
+    <div id="cite">
+        <p>Background music by e-soundtrax <a href="https://www.youtube.com/watch?v=mmvT0e3MLLA">Youtube Link</a></p>
+    </div>
+</body>
+</html>

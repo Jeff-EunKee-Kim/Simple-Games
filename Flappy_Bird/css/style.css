@@ -1,0 +1,22 @@
+body{
+    background: aqua;
+}
+
+#title{
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+#cite{
+    font-size: 150%;
+    margin-left: 2%;
+}
+
+.font{
+    font-size: 70%;
+}
+
+#cc{
+    position: absolute;
+    bottom: 0;
+}
